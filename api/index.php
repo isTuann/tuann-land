@@ -19,4 +19,4 @@ while(!feof($fs)){
 $pic = $pics[array_rand($pics)];
 
 header('Content-type:text/json');
-die(json_encode(['pic'=>$pic]));
+die(json_encode(['url'=>$pic]));
