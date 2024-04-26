@@ -1,8 +1,8 @@
 <?php
 //存有图片链接的文件名.txt
-$filename = 'images.txt';
-if(file_exists('/var/task/user/api/images.txt')) {
-    die('文件已经存在啦！');
+$filename = '/var/task/user/api/images.txt';
+if(!file_exists('/var/task/user/api/images.txt')) {
+    die('文件不存在唷！');
 }
  
 //从文本获取链接
