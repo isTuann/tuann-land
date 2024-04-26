@@ -1,7 +1,7 @@
 <?php
 //存有图片链接的文件名.txt
-$filename = '/images.txt';
-if(!file_exists($filename)) {
+$filename = 'images.txt';
+if(!file_exists(__DIR__ . '/images.txt')) {
     die('文件真的不存在吗？');
 }
  
