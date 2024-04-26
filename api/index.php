@@ -1,8 +1,8 @@
 <?php
 //存有图片链接的文件名.txt
 $filename = 'images.txt';
-if(!file_exists(__DIR__ . '/images.txt')) {
-    die('文件真的不存在吗？');
+if(file_exists(__DIR__ . '/images.txt')) {
+    die('文件已经存在啦！');
 }
  
 //从文本获取链接
