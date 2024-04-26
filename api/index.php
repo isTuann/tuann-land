@@ -17,17 +17,6 @@ while(!feof($fs)){
  
 //从数组随机获取链接
 $pic = $pics[array_rand($pics)];
- 
-//返回指定格式
-$type=$_GET['type'];
-switch($type){
- 
-//JSON返回
-case 'json':
-    header('Content-type:text/json');
-    die(json_encode(['pic'=>$pic]));
- 
-default:
-    die(header("Location: $pic"));
-}
-?>
+
+header('Content-type:text/json');
+die(json_encode(['pic'=>$pic]));
