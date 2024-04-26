@@ -1,7 +1,7 @@
 <?php
 //存有图片链接的文件名.txt
 $filename = 'images.txt';
-if(file_exists(__DIR__ . '/images.txt')) {
+if(file_exists('/var/task/user/api/images.txt')) {
     die('文件已经存在啦！');
 }
  
