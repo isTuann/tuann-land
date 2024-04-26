@@ -1,5 +1,4 @@
 <?php
-
 $filename = "images.txt";
 if(!file_exists($filename)){
     die('文件不存在');
