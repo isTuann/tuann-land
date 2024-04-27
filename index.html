@@ -1,10 +1,156 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>TUANN'S</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </head>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TOOLKIT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Slabo+27px|Yesteryear'>
+  <link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap">
+  <script type="text/javascript" src="https://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js"></script>
+  <script type="text/javascript">
+   $webfont.load("p", "c14a73bc9eac479c90339287f5259e22", "HanWangYenThin-Gb5");
+   $webfont.draw();
+  </script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2e3e38;
+  font-family: "Slabo 27px", serif;
+  color: #333a45;
+}
+
+.wrapper {
+  margin: 5em auto;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
+}
+
+.header {
+  padding: 30px 30px 0;
+  text-align: center;
+}
+.header__title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.header__subtitle {
+  margin: 0;
+  font-size: 1.5em;
+  color: #949fb0;
+  font-family: "Yesteryear", cursive;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.cards {
+  padding: 15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  margin: 15px;
+  width: calc((100% / 3) - 30px);
+  transition: all 0.2s ease-in-out;
+}
+.card:hover .card__inner {
+  color: #fbff16;
+  background-color: #d8457b;
+  transform: scale(1.05);
+}
+.card__inner {
+  width: 100%;
+  padding: 30px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #73bfa2;
+  color: #73bfa2;
+  font-size: 2.5em;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+.card__inner:after {
+  transition: all 0.3s ease-in-out;
+}
+.card span {
+  color: #ffffff;
+  font-family: "Bree Serif", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-family: "HanWangYenThin-Gb5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+</style>
+
+</head>
 <body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+
+  <div class="header">
+    <h1 class="header__title">Tuann's Toolkit</h1>
+    <h2 class="header__subtitle">Remake</h2>
+  </div>
+
+  <div class="cards">
+
+    <div class="card" onClick="window.open('https://anakin.oaifree.pro/#/chat', '_blank')">
+      <div class="card__inner">
+        <span>NextChat</span>
+        <p>与人工智能聊天</p>
+      </div>
+    </div>
+
+    <div class="card" onClick="window.open('https://suno.com/', '_blank')">
+      <div class="card__inner">
+        <span>Suno</span>
+        <p>根据描述生成歌曲</p>
+      </div>
+    </div>
+
+    <div class="card" onClick="window.open('https://www.vegaai.net/', '_blank')">
+      <div class="card__inner">
+        <span>VegaAI</span>
+        <p>多种方式生成绘画</p>
+      </div>
+    </div>
+
+    <div class="card" onClick="window.open('https://www.bilibili.com/video/BV1a64y1C7zx/', '_blank')">
+      <div class="card__inner">
+        <span>~Locked~</span>
+        <p>闲谈茶话会·三集全</p>
+      </div>
+    </div>
+
+    <div class="card" onClick="window.open('https://www.bilibili.com/video/BV1KS4y1B7p2/', '_blank')">
+      <div class="card__inner">
+        <span>~Locked~</span>
+        <p>蓝光特典游戏局·三集全</p>
+      </div>
+    </div>
+
+    <div class="card" onClick="window.open('https://www.opendrive.com/', '_blank')">
+      <div class="card__inner">
+        <span>OpenDrive</span>
+        <p>图床·音乐外链用盘</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
 </body>
 </html>
