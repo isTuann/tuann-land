@@ -1,9 +1,1 @@
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/1.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/2.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/3.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/4.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/5.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/6.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/7.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/8.jpg
-https://cdn.jsdelivr.net/gh/tuannplus/images/acg/9.jpg
+https://cdn.jsdelivr.net/gh/tuannplus/images/acg/0.jpg
